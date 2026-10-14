@@ -1,0 +1,19 @@
+# core
+numpy
+scipy
+soundfile
+librosa
+mir_eval
+pretty_midi
+pyguitarpro
+matplotlib
+# separation
+torch
+torchaudio
+demucs
+audio-separator           # BS-Roformer "no drum-bass" model (optional fourth separator)
+# transcription / beats
+basic-pitch
+onnxruntime
+setuptools<81             # resampy (basic-pitch dep) still imports pkg_resources
+beat_this @ https://github.com/CPJKU/beat_this/archive/main.zip

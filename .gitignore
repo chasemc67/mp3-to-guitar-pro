@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+work/
+out/
+*.wav
+*.sf2
+*.sf3
+soundfonts/*.sf2
+soundfonts/*.sf3
